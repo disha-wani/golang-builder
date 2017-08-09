@@ -3,7 +3,7 @@
 source /build_environment.sh $1
 
 # Grab the last segment from the package name
-name=${pkgName##*/}
+name=${pkgName##*/api}
 
 mainPackagePath=$1
 if [[ ! -z "${mainPackagePath}" ]];
